@@ -27,15 +27,7 @@ As transições são dadas por:
    b) Determine os vetores x1 e x2  
    c) Escreva a forma geral: `x_n = x0 · P^n`
 
-3. Suponha x0 = (1, 0, 0), p = 0.3 e q = 0.7. Implemente a matriz de transição:
-
-```text
-P = [[1 - p, p, 0],
-     [0, 0, 1],
-     [q, 0, 1 - q]]
-```
-
-e calcule x_n para n = 3.
+3. Suponha x0 = (1, 0, 0), p = 0.3 e q = 0.7. Implemente a matriz de transição e calcule x_n para n = 3.
 
 4. Utilize Python para investigar o comportamento de longo prazo da cadeia de Markov, analisando a convergência dos estados.
 
@@ -80,15 +72,7 @@ Transitions:
    b) Compute x1 and x2  
    c) Write the general form: `x_n = x0 · P^n`
 
-3. Assume x0 = (1, 0, 0), p = 0.3, and q = 0.7. Implement:
-
-```text
-P = [[1 - p, p, 0],
-     [0, 0, 1],
-     [q, 0, 1 - q]]
-```
-
-and compute x_n for n = 3.
+3. Assume x0 = (1, 0, 0), p = 0.3, and q = 0.7. Implement the transition matrix and compute x_n for n = 3.
 
 4. Use Python to analyze the long-term behavior of the Markov chain and observe convergence.
 
